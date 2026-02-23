@@ -56,10 +56,12 @@ jobs:
           path: allure-report
 
       - name: Create CI verification instructions
-        run: |
-          cat > CI_VERIFICATION.md <<'EOF'
-          # CI Verification Commands and Checklist
-
+        shell: bash
+  run: |
+    cat << 'EOF' > CI_VERIFICATION.md
+    # CI Verification
+    This file confirms CI pipeline executed successfully.
+    EOF
           ## Git commands (PowerShell)
 
           ```powershell
