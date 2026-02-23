@@ -31,7 +31,7 @@ jobs:
           node-version: '18'
 
       - name: Run Maven tests
-        run: mvn test -Dcucumber.filter.tags=@smoke4
+        run: mvn test "-Dcucumber.filter.tags=@smoke4"
 
       - name: Generate Allure report (if available)
         run: |
@@ -91,7 +91,7 @@ jobs:
           ## Local commands to reproduce
 
           ```powershell
-          mvn test -Dcucumber.filter.tags=@smoke4
+          mvn test "-Dcucumber.filter.tags=@smoke4"
           allure generate target/allure-results -o target/allure-report --clean
           ii .\target\allure-report\index.html
           ```
