@@ -30,7 +30,7 @@ Background:
 
   Examples:
   | UserRole | EmployeeName       | status   | username    | password   | confirmpassword  |
-  | Admin    | Madhu Arun M       | Enabled  | doeadmin    | welcome123 | welcome123       |
+  | Admin    | manda akhil user   | Enabled  | doeadmin    | welcome123 | welcome123       |
   | ESS      | joker john selvam  | Disabled | thomasuser  | welcome456 | welcome456       |
 
 @regression3
