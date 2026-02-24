@@ -61,6 +61,14 @@ jobs:
           name: allure-report
           path: allure-report
 
+      - name: Push changes 
+        run: | 
+         git checkout -B ci/add-github-actions 
+         git pull origin ci/add-github-actions --rebase || true 
+         git add . 
+         git commit -m "Add GitHub Actions CI workflow" || echo "No changes to commit" 
+         git push origin ci/add-github-actions
+
       - name: Create CI verification instructions
         shell: bash
         run: |
