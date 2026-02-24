@@ -58,11 +58,11 @@ jobs:
 
       - name: Create CI verification instructions
         shell: bash
-  run: |
-    cat << 'EOF' > CI_VERIFICATION.md
-    # CI Verification
-    This file confirms CI pipeline executed successfully.
-    EOF
+        run: |
+         cat << 'EOF' > CI_VERIFICATION.md
+         # CI Verification
+         This file confirms CI pipeline executed successfully.
+         EOF
           ## Git commands (PowerShell)
 
           ```powershell
