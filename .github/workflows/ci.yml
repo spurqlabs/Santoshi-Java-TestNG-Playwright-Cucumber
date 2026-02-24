@@ -12,6 +12,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Configure Git
+        run: |
+         git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+
       - name: Set up JDK
         uses: actions/setup-java@v4
         with:
