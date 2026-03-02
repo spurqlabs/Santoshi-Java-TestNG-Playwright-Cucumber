@@ -1,0 +1,23 @@
+{
+  "name": "playwright-bdd-js",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+  "install:browsers": "npx playwright install",
+
+  "test": "cucumber-js --config cucumber.js",
+
+  "test:smoke": "cucumber-js --config cucumber.js --tags @smoke",
+
+  "test:regression": "cucumber-js --config cucumber.js --tags @regression",
+
+  "test:sanity": "cucumber-js --config cucumber.js --tags @sanity",
+
+  "test:tag": "cucumber-js --config cucumber.js"
+},
+  "dependencies": {
+    "@cucumber/cucumber": "^9.0.0",
+    "playwright": "^1.40.0",
+    "winston": "^3.19.0"
+  }
+}

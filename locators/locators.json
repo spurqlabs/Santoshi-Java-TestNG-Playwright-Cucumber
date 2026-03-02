@@ -1,0 +1,199 @@
+{
+  "login": {
+        "username": {
+      "selector": "//input[@name='username']",
+      "type": "input"
+    },
+    "password": {
+      "selector": "//input[@name='password']",
+      "type": "input"
+    },
+    "loginButton": {
+      "selector": "button[type='submit']",
+      "type": "button"
+    }
+  },
+
+  "dashboard": {
+    "dashboardHeader": {
+      "selector": "h6.oxd-topbar-header-breadcrumb-module",
+      "type": "header"
+    
+    },
+"top1":
+{
+  "selector": "//div[contains(@class,'oxd-topbar')]"
+
+}
+
+
+  },
+
+  
+  "timesheet": {
+    "menuTime": {
+      "selector": "//a[contains(@class,'oxd-main-menu-item') and .//span[normalize-space()='Time']]",
+      "type": "menu"
+    },
+   
+    "viewButtons": {
+      "selector": "button:has-text('View')",
+      "type": "button"
+    },
+    "headerTimesheets": {
+      "selector": "//span[contains(@class,'oxd-topbar-body-nav-tab-item') and normalize-space()='Timesheets']",
+      "type": "header"
+    },
+    "MyTimesheets": {
+      "selector": "//a[contains(@class,'oxd-topbar-body-nav-tab-link') and normalize-space()='My Timesheets']",
+      "type": "link"
+    },
+    "EditTimesheetButton": {
+      "selector": "//button[normalize-space()='Edit']",
+      "type": "button"
+    },
+
+    "projectname":
+    {
+        "selector":"//input[@placeholder='Type for hints...']"
+    
+      },
+      "dropdownsuggestion":
+    {
+      "selector": "//div[@role='option' and contains(normalize-space(.)",
+      "type": "dropdownOption"      
+    },
+     "list":
+     {
+      "selector":"//div[@role='listbox']"
+     },
+     "roleOpt":
+     {
+      "selector": "//div[@role='option']"
+     },
+     "optionselect":{
+     "selector": "//div[@role='option']//span[normalize-space()="
+     },
+      "activity":
+      {
+       "selector":"//div[@class='oxd-select-text-input' and text()='Bug Fixes']"
+       },
+
+       "23mon":
+       {
+          "selector":"(//input[@autocomplete='off'])[1]"
+       },
+
+       "24Tue":
+       {
+        "selector":"(//input[@autocomplete='off'])[2]"
+       },
+
+       "button":
+       {
+        "selector":"//button[normalize-space()='Save']"
+       },
+       "toast":
+    {
+      "selector": "//p[contains(@class,'oxd-text--toast-message') and contains(.,'Successfully')]"
+    },
+
+
+    "Cancelbutton" :{
+      "selector": "//button[contains(@class,'oxd-button') and normalize-space()='Cancel']",
+      "type": "button"
+    }
+  },
+  
+  "myInfo": {
+    "myInfoMenu": {
+      "selector": "//a[.//span[normalize-space()='My Info']]",
+      "type": "link"
+    }
+  },
+
+  "contactDetails": {
+    "tab": {
+      "selector": "//a[contains(@href,'contactDetails') and contains(text(),'Contact Details')]",
+      "type": "tab"
+    },
+    "street1": {
+      "selector": "//label[normalize-space()='Street 1']/ancestor::div[contains(@class,'oxd-input-group')]//input",
+      "type": "textbox"
+    },
+    "city": {
+      "selector": "//label[text()='City']/../../..//input[@class='oxd-input oxd-input--active']",
+      "type": "textbox"
+    },
+    "stateProvince": {
+      "selector": "//label[text()='State/Province']/../../..//input[@class='oxd-input oxd-input--active']",
+      "type": "textbox"
+    },
+    "zipPostalCode": {
+      "selector": "//label[text()='Zip/Postal Code']/../../..//input[@class='oxd-input oxd-input--active']",
+      "type": "textbox"
+    },
+    "country": {
+      "selector": "//div[contains(@class, 'oxd-select-text-input')]",
+      "type": "dropdown"
+    },
+     
+
+
+    "CountryOption": {
+      "selector": "//i[contains(@class,'oxd-select-text--arrow')]",
+      "type": "dropdownOption"
+    },
+    "CountrySelectedValue": {
+  "selector": "//label[normalize-space()='Country']/ancestor::div[contains(@class,'oxd-input-group')]//div[contains(@class,'oxd-select-text-input')]",
+  "type": "text"
+},
+  
+    "mobile": {
+      "selector": "//label[text()='Mobile']/../../..//input[@class='oxd-input oxd-input--active']",
+      "type": "textbox"
+    },
+    "work": {
+      "selector": "//label[text()='Work']/../../..//input[@class='oxd-input oxd-input--active']",
+      "type": "textbox"
+    },
+    "workEmail": {
+      "selector": "//label[text()='Work Email']/../../..//input[@class='oxd-input oxd-input--active']",
+      "type": "textbox"
+    },
+    "saveButton": {
+      "selector": "//div[@class='oxd-form-actions']/button[@class='oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space']",
+      "type": "button"
+    },
+    "optionselect":
+    {
+       "selector": "//div[@role='option']//span[normalize-space()="
+    },
+    "dropdownOptionContains2": {
+  "selector": "//*[contains(text(), '{value}') and @role='option']",
+  "type": "dropdownOption"
+},
+
+"rolecount3":
+{
+  "selector": "//div[@role='option']"
+},
+
+"toast":
+    {
+      "selector": "//p[contains(@class,'oxd-text--toast-message') and contains(.,'Successfully')]"
+    }
+    
+  
+  },  
+  "profile": {
+    "profileMenu": {
+      "selector": "//i[contains(@class,'bi-caret-down-fill') and contains(@class,'oxd-userdropdown-icon')]",
+      "type": "menu"
+    },
+    "logout": {
+      "selector": "//a[@href='/web/index.php/auth/logout' and @role='menuitem' and @class='oxd-userdropdown-link' and text()='Logout']",
+      "type": "link"
+    }
+  }
+}

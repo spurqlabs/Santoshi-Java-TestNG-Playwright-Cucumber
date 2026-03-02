@@ -1,0 +1,30 @@
+{
+  "fileName": "timesheetData",
+"scenarios":
+  [
+    {
+      "scenarioName": "TC001 - Login to application",
+    "testData": 
+     {
+    "username": "Admin",
+    "password": "admin123"
+     }
+    },
+
+
+    {
+       "scenarioName": "TC003 - Add Contact details",
+        "testData": 
+          {
+      "street1": "45 Street",
+      "city1": "New York City",
+      "state": "LN",
+      "zipcode": "67899",
+      "country1": "Algeria",
+      "mobile": "9123111081",
+      "workphone": "2319101010",
+      "workemail": "test@xcmail.com"
+    }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "environment": "Test",
+
+
+  "application": {
+    "url": "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"
+  },
+
+  "browser": {
+    "name": "chromium",
+    "headless": false,
+    "slowMo": 800
+  },
+
+  "timeouts": {
+    "explicit": 10000,
+    "pageLoad": 30000
+  },
+  "reporting": {
+  "screenshotOnFailure": true
+},
+"parallel":{
+  "enabled": true,
+  "threadCount": 2
+},
+"window":{
+  "maximize": true
+}
+
+  
+}

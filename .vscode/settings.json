@@ -1,0 +1,17 @@
+{
+  "cucumberautocomplete.enable": true,
+  "cucumberautocomplete.steps": [
+    "steps/*.js",
+    "steps/**/*.js",
+    "**/steps/*.js",
+    "**/steps/**/*.js",
+    "pages/*.js",
+    "pages/**/*.js"
+  ],
+  "cucumberautocomplete.syncfeatures": "features/**/*.feature",
+  "cucumberautocomplete.strictGherkinCompletion": true,
+  "cucumberautocomplete.renameStepsInAllFiles": true,
+  "cucumberautocomplete.customParameters": [
+    "{float}", "(-?\\d*\\.\\d+)|(-?\\d+)"
+  ]
+}
