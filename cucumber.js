@@ -7,7 +7,7 @@ module.exports = {
       "json:test-results/reports/cucumber-report.json",
       "junit:test-results/reports/cucumber-report.xml"
     ],
-   
+   parallel: 3,
     publishQuiet: true,
     formatOptions: {
       snippetInterface: "async-await"

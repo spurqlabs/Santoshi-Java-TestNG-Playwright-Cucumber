@@ -5,15 +5,15 @@
   "scripts": {
   "install:browsers": "npx playwright install",
 
-  "test": "cucumber-js --config cucumber.js",
+  "test": "cucumber-js --config cucumber.js --parallel 3",
 
-  "test:smoke": "cucumber-js --config cucumber.js --tags @smoke",
+  "test:smoke": "cucumber-js --config cucumber.js --tags @smoke --parallel 3",
 
-  "test:regression": "cucumber-js --config cucumber.js --tags @regression",
+  "test:regression": "cucumber-js --config cucumber.js --tags @regression --parallel 3",
 
-  "test:sanity": "cucumber-js --config cucumber.js --tags @sanity",
+  "test:sanity": "cucumber-js --config cucumber.js --tags @sanity --parallel 3",
 
-  "test:tag": "cucumber-js --config cucumber.js"
+  "test:tag": "cucumber-js --config cucumber.js --parallel 3"
 },
   "dependencies": {
     "@cucumber/cucumber": "^9.0.0",
