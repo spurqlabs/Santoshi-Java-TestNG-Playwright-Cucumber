@@ -935,3 +935,272 @@
 2026-03-03 14:56:42 [INFO] : Clicking Save button
 2026-03-03 14:56:44 [INFO] : Save button clicked successfully
 2026-03-03 14:56:44 [INFO] : Checking if Contact Details is saved successfully
+2026-03-03 15:57:21 [INFO] : Username value entered successfully
+2026-03-03 15:57:23 [INFO] : Password value entered successfully
+2026-03-03 15:57:54 [INFO] : Username value entered successfully
+2026-03-03 15:57:56 [INFO] : Password value entered successfully
+2026-03-03 15:58:26 [INFO] : Username value entered successfully
+2026-03-03 15:58:28 [INFO] : Password value entered successfully
+2026-03-03 15:59:37 [INFO] : Username value entered successfully
+2026-03-03 15:59:39 [INFO] : Password value entered successfully
+2026-03-03 16:03:44 [INFO] : Username value entered successfully
+2026-03-03 16:03:46 [INFO] : Password value entered successfully
+2026-03-03 16:03:50 [INFO] : Login successful, dashboard loaded
+2026-03-03 16:03:50 [INFO] : Checking if user is logged in
+2026-03-03 16:03:50 [INFO] : Checking if user is logged in
+2026-03-03 16:29:37 [INFO] : Username value entered successfully
+2026-03-03 16:29:39 [INFO] : Password value entered successfully
+2026-03-03 16:30:23 [INFO] : Username value entered successfully
+2026-03-03 16:30:26 [INFO] : Password value entered successfully
+2026-03-03 16:30:54 [INFO] : Username value entered successfully
+2026-03-03 16:30:56 [INFO] : Password value entered successfully
+2026-03-03 16:32:38 [INFO] : Username value entered successfully
+2026-03-03 16:32:40 [INFO] : Password value entered successfully
+2026-03-03 16:33:10 [INFO] : Username value entered successfully
+2026-03-03 16:33:12 [INFO] : Password value entered successfully
+2026-03-03 16:34:36 [INFO] : Username value entered successfully
+2026-03-03 16:34:38 [INFO] : Password value entered successfully
+2026-03-03 16:34:42 [INFO] : Login successful, dashboard loaded
+2026-03-03 16:34:42 [INFO] : Checking if user is logged in
+2026-03-03 16:34:43 [INFO] : Checking if user is logged in
+2026-03-03 16:36:26 [INFO] : Username value entered successfully
+2026-03-03 16:36:26 [INFO] : Username value entered successfully
+2026-03-03 16:36:26 [INFO] : Username value entered successfully
+2026-03-03 16:36:28 [INFO] : Password value entered successfully
+2026-03-03 16:36:28 [INFO] : Password value entered successfully
+2026-03-03 16:36:28 [INFO] : Password value entered successfully
+2026-03-03 16:36:33 [INFO] : Login successful, dashboard loaded
+2026-03-03 16:36:33 [INFO] : Login successful, dashboard loaded
+2026-03-03 16:36:33 [INFO] : Login successful, dashboard loaded
+2026-03-03 16:36:34 [INFO] : Checking if user is logged in
+2026-03-03 16:36:34 [INFO] : Checking if user is logged in
+2026-03-03 16:36:34 [INFO] : Checking if user is logged in
+2026-03-03 16:36:34 [INFO] : Checking if user is logged in
+2026-03-03 16:36:39 [INFO] : viewEmployeeTimesheet page opened after clicking menu
+2026-03-03 16:36:39 [INFO] : Checking if ViewEmployeeTimesheet page is displayed
+2026-03-03 16:36:40 [INFO] : viewPersonalDetails page opened after clicking option
+2026-03-03 16:36:41 [INFO] : Checking if viewPersonalDetails page is displayed with all personal details of the user
+2026-03-03 16:36:41 [INFO] : Clicking Contact Details tab
+2026-03-03 16:36:41 [INFO] : My Timesheets option is visible
+2026-03-03 16:36:42 [INFO] : Checking if Timesheet dropdown list is displayed
+2026-03-03 16:36:44 [INFO] : Contact Details tab navigation successful
+2026-03-03 16:36:44 [INFO] : viewMyTimesheet page opened after clicking option
+2026-03-03 16:36:45 [INFO] : Checking if ContactDetails page is displayed
+2026-03-03 16:36:45 [INFO] : Checking if ViewMyTimesheet page is displayed
+2026-03-03 16:36:45 [INFO] : Entering Street 1 value
+2026-03-03 16:36:49 [INFO] : EditTimesheet page opened after clicking edit button
+2026-03-03 16:36:49 [INFO] : Checking if EditTimesheet page is displayed
+2026-03-03 16:36:51 [INFO] : Street 1 value entered successfully
+2026-03-03 16:36:51 [INFO] : Entering City value
+2026-03-03 16:36:52 [INFO] : ViewMyTimesheet page opened after clicking cancel button
+2026-03-03 16:36:52 [INFO] : Checking if My Timesheet page is displayed
+2026-03-03 16:36:54 [INFO] : Username value entered successfully
+2026-03-03 16:36:54 [INFO] : City value entered successfully
+2026-03-03 16:36:54 [INFO] : Entering State value
+2026-03-03 16:36:56 [INFO] : Password value entered successfully
+2026-03-03 16:36:56 [INFO] : State value entered successfully
+2026-03-03 16:36:56 [INFO] : Entering Zipcode value
+2026-03-03 16:36:58 [INFO] : Zipcode value entered successfully
+2026-03-03 16:36:58 [INFO] : Selecting Country value
+2026-03-03 16:37:02 [INFO] : Country value selected successfully
+2026-03-03 16:37:03 [INFO] : Entering Mobile number value
+2026-03-03 16:37:05 [INFO] : Mobile number value entered successfully
+2026-03-03 16:37:05 [INFO] : Entering Work Mobile number value
+2026-03-03 16:37:09 [INFO] : Work Mobile number value entered successfully
+2026-03-03 16:37:09 [INFO] : Entering Work Email value
+2026-03-03 16:37:11 [INFO] : Work Email value entered successfully
+2026-03-03 16:37:11 [INFO] : Clicking Save button
+2026-03-03 16:37:13 [INFO] : Save button clicked successfully
+2026-03-03 16:37:13 [INFO] : Checking if Contact Details is saved successfully
+2026-03-03 16:40:00 [INFO] : Username value entered successfully
+2026-03-03 16:40:00 [INFO] : Username value entered successfully
+2026-03-03 16:40:00 [INFO] : Username value entered successfully
+2026-03-03 16:40:02 [INFO] : Password value entered successfully
+2026-03-03 16:40:02 [INFO] : Password value entered successfully
+2026-03-03 16:40:02 [INFO] : Password value entered successfully
+2026-03-03 16:40:06 [INFO] : Login successful, dashboard loaded
+2026-03-03 16:40:07 [INFO] : Login successful, dashboard loaded
+2026-03-03 16:40:07 [INFO] : Login successful, dashboard loaded
+2026-03-03 16:40:07 [INFO] : Checking if user is logged in
+2026-03-03 16:40:07 [INFO] : Checking if user is logged in
+2026-03-03 16:40:07 [INFO] : Checking if user is logged in
+2026-03-03 16:40:07 [INFO] : Checking if user is logged in
+2026-03-03 16:40:12 [INFO] : viewPersonalDetails page opened after clicking option
+2026-03-03 16:40:12 [INFO] : Checking if viewPersonalDetails page is displayed with all personal details of the user
+2026-03-03 16:40:12 [INFO] : viewEmployeeTimesheet page opened after clicking menu
+2026-03-03 16:40:12 [INFO] : Clicking Contact Details tab
+2026-03-03 16:40:12 [INFO] : Checking if ViewEmployeeTimesheet page is displayed
+2026-03-03 16:40:15 [INFO] : My Timesheets option is visible
+2026-03-03 16:40:15 [INFO] : Checking if Timesheet dropdown list is displayed
+2026-03-03 16:40:16 [INFO] : Contact Details tab navigation successful
+2026-03-03 16:40:16 [INFO] : Checking if ContactDetails page is displayed
+2026-03-03 16:40:17 [INFO] : Entering Street 1 value
+2026-03-03 16:40:18 [INFO] : viewMyTimesheet page opened after clicking option
+2026-03-03 16:40:18 [INFO] : Checking if ViewMyTimesheet page is displayed
+2026-03-03 16:40:22 [INFO] : EditTimesheet page opened after clicking edit button
+2026-03-03 16:40:22 [INFO] : Checking if EditTimesheet page is displayed
+2026-03-03 16:40:24 [INFO] : Street 1 value entered successfully
+2026-03-03 16:40:24 [INFO] : Entering City value
+2026-03-03 16:40:26 [INFO] : ViewMyTimesheet page opened after clicking cancel button
+2026-03-03 16:40:26 [INFO] : Checking if My Timesheet page is displayed
+2026-03-03 16:40:26 [INFO] : City value entered successfully
+2026-03-03 16:40:27 [INFO] : Entering State value
+2026-03-03 16:40:27 [INFO] : Username value entered successfully
+2026-03-03 16:40:29 [INFO] : State value entered successfully
+2026-03-03 16:40:29 [INFO] : Entering Zipcode value
+2026-03-03 16:40:29 [INFO] : Password value entered successfully
+2026-03-03 16:40:31 [INFO] : Zipcode value entered successfully
+2026-03-03 16:40:31 [INFO] : Selecting Country value
+2026-03-03 16:40:35 [INFO] : Country value selected successfully
+2026-03-03 16:40:35 [INFO] : Entering Mobile number value
+2026-03-03 16:40:37 [INFO] : Mobile number value entered successfully
+2026-03-03 16:40:37 [INFO] : Entering Work Mobile number value
+2026-03-03 16:41:19 [INFO] : Username value entered successfully
+2026-03-03 16:41:19 [INFO] : Username value entered successfully
+2026-03-03 16:41:20 [INFO] : Username value entered successfully
+2026-03-03 16:41:21 [INFO] : Password value entered successfully
+2026-03-03 16:41:21 [INFO] : Password value entered successfully
+2026-03-03 16:41:22 [INFO] : Password value entered successfully
+2026-03-03 16:41:25 [INFO] : Login successful, dashboard loaded
+2026-03-03 16:41:25 [INFO] : Checking if user is logged in
+2026-03-03 16:41:26 [INFO] : Checking if user is logged in
+2026-03-03 16:42:41 [INFO] : Username value entered successfully
+2026-03-03 16:42:43 [INFO] : Username value entered successfully
+2026-03-03 16:42:44 [INFO] : Password value entered successfully
+2026-03-03 16:42:44 [INFO] : Username value entered successfully
+2026-03-03 16:42:45 [INFO] : Password value entered successfully
+2026-03-03 16:42:46 [INFO] : Password value entered successfully
+2026-03-03 16:42:49 [INFO] : Login successful, dashboard loaded
+2026-03-03 16:42:49 [INFO] : Checking if user is logged in
+2026-03-03 16:42:50 [INFO] : Checking if user is logged in
+2026-03-03 16:42:50 [INFO] : Login successful, dashboard loaded
+2026-03-03 16:42:51 [INFO] : Checking if user is logged in
+2026-03-03 16:42:53 [INFO] : Login successful, dashboard loaded
+2026-03-03 16:42:54 [INFO] : Checking if user is logged in
+2026-03-03 16:43:01 [INFO] : viewPersonalDetails page opened after clicking option
+2026-03-03 16:43:01 [INFO] : Checking if viewPersonalDetails page is displayed with all personal details of the user
+2026-03-03 16:43:01 [INFO] : Clicking Contact Details tab
+2026-03-03 16:43:05 [INFO] : Contact Details tab navigation successful
+2026-03-03 16:43:05 [INFO] : Checking if ContactDetails page is displayed
+2026-03-03 16:43:06 [INFO] : Entering Street 1 value
+2026-03-03 16:43:12 [INFO] : Street 1 value entered successfully
+2026-03-03 16:43:12 [INFO] : Entering City value
+2026-03-03 16:43:14 [INFO] : Username value entered successfully
+2026-03-03 16:43:14 [INFO] : City value entered successfully
+2026-03-03 16:43:14 [INFO] : Entering State value
+2026-03-03 16:43:16 [INFO] : Password value entered successfully
+2026-03-03 16:43:16 [INFO] : State value entered successfully
+2026-03-03 16:43:17 [INFO] : Entering Zipcode value
+2026-03-03 16:43:19 [INFO] : Zipcode value entered successfully
+2026-03-03 16:43:19 [INFO] : Selecting Country value
+2026-03-03 16:43:19 [INFO] : Login successful, dashboard loaded
+2026-03-03 16:43:20 [INFO] : Checking if user is logged in
+2026-03-03 16:43:23 [INFO] : Country value selected successfully
+2026-03-03 16:43:23 [INFO] : Entering Mobile number value
+2026-03-03 16:43:25 [INFO] : viewPersonalDetails page opened after clicking option
+2026-03-03 16:43:25 [INFO] : Checking if viewPersonalDetails page is displayed with all personal details of the user
+2026-03-03 16:43:25 [INFO] : Clicking Contact Details tab
+2026-03-03 16:43:25 [INFO] : Mobile number value entered successfully
+2026-03-03 16:43:25 [INFO] : Entering Work Mobile number value
+2026-03-03 16:43:28 [INFO] : Contact Details tab navigation successful
+2026-03-03 16:43:28 [INFO] : Checking if ContactDetails page is displayed
+2026-03-03 16:43:29 [INFO] : Entering Street 1 value
+2026-03-03 16:43:29 [INFO] : Work Mobile number value entered successfully
+2026-03-03 16:43:29 [INFO] : Entering Work Email value
+2026-03-03 16:43:31 [INFO] : Work Email value entered successfully
+2026-03-03 16:43:31 [INFO] : Clicking Save button
+2026-03-03 16:43:33 [INFO] : Save button clicked successfully
+2026-03-03 16:43:34 [INFO] : Checking if Contact Details is saved successfully
+2026-03-03 16:43:35 [INFO] : Street 1 value entered successfully
+2026-03-03 16:43:35 [INFO] : Entering City value
+2026-03-03 16:43:37 [INFO] : City value entered successfully
+2026-03-03 16:43:37 [INFO] : Entering State value
+2026-03-03 16:43:40 [INFO] : State value entered successfully
+2026-03-03 16:43:40 [INFO] : Entering Zipcode value
+2026-03-03 16:43:42 [INFO] : Zipcode value entered successfully
+2026-03-03 16:43:42 [INFO] : Selecting Country value
+2026-03-03 16:43:46 [INFO] : Country value selected successfully
+2026-03-03 16:43:46 [INFO] : Entering Mobile number value
+2026-03-03 16:43:48 [INFO] : Mobile number value entered successfully
+2026-03-03 16:43:48 [INFO] : Entering Work Mobile number value
+2026-03-03 16:43:52 [INFO] : Work Mobile number value entered successfully
+2026-03-03 16:43:52 [INFO] : Entering Work Email value
+2026-03-03 16:43:54 [INFO] : Work Email value entered successfully
+2026-03-03 16:43:54 [INFO] : Clicking Save button
+2026-03-03 16:43:56 [INFO] : Save button clicked successfully
+2026-03-03 16:43:57 [INFO] : Checking if Contact Details is saved successfully
+2026-03-03 16:46:19 [INFO] : Username value entered successfully
+2026-03-03 16:46:19 [INFO] : Username value entered successfully
+2026-03-03 16:46:19 [INFO] : Username value entered successfully
+2026-03-03 16:46:21 [INFO] : Password value entered successfully
+2026-03-03 16:46:21 [INFO] : Password value entered successfully
+2026-03-03 16:46:21 [INFO] : Password value entered successfully
+2026-03-03 16:46:27 [INFO] : Login successful, dashboard loaded
+2026-03-03 16:46:27 [INFO] : Checking if user is logged in
+2026-03-03 16:46:28 [INFO] : Login successful, dashboard loaded
+2026-03-03 16:46:28 [INFO] : Login successful, dashboard loaded
+2026-03-03 16:46:28 [INFO] : Checking if user is logged in
+2026-03-03 16:46:28 [INFO] : Checking if user is logged in
+2026-03-03 16:46:28 [INFO] : Checking if user is logged in
+2026-03-03 16:46:33 [INFO] : viewPersonalDetails page opened after clicking option
+2026-03-03 16:46:34 [INFO] : Checking if viewPersonalDetails page is displayed with all personal details of the user
+2026-03-03 16:46:34 [INFO] : Clicking Contact Details tab
+2026-03-03 16:46:35 [INFO] : viewEmployeeTimesheet page opened after clicking menu
+2026-03-03 16:46:35 [INFO] : Checking if ViewEmployeeTimesheet page is displayed
+2026-03-03 16:46:37 [INFO] : Contact Details tab navigation successful
+2026-03-03 16:46:37 [INFO] : My Timesheets option is visible
+2026-03-03 16:46:38 [INFO] : Checking if ContactDetails page is displayed
+2026-03-03 16:46:38 [INFO] : Checking if Timesheet dropdown list is displayed
+2026-03-03 16:46:38 [INFO] : Entering Street 1 value
+2026-03-03 16:46:41 [INFO] : viewMyTimesheet page opened after clicking option
+2026-03-03 16:46:41 [INFO] : Checking if ViewMyTimesheet page is displayed
+2026-03-03 16:46:44 [INFO] : EditTimesheet page opened after clicking edit button
+2026-03-03 16:46:44 [INFO] : Checking if EditTimesheet page is displayed
+2026-03-03 16:46:44 [INFO] : Street 1 value entered successfully
+2026-03-03 16:46:44 [INFO] : Entering City value
+2026-03-03 16:46:47 [INFO] : City value entered successfully
+2026-03-03 16:46:47 [INFO] : Entering State value
+2026-03-03 16:46:47 [INFO] : ViewMyTimesheet page opened after clicking cancel button
+2026-03-03 16:46:47 [INFO] : Checking if My Timesheet page is displayed
+2026-03-03 16:46:49 [INFO] : State value entered successfully
+2026-03-03 16:46:49 [INFO] : Entering Zipcode value
+2026-03-03 16:46:49 [INFO] : Username value entered successfully
+2026-03-03 16:46:51 [INFO] : Zipcode value entered successfully
+2026-03-03 16:46:51 [INFO] : Selecting Country value
+2026-03-03 16:46:51 [INFO] : Password value entered successfully
+2026-03-03 16:46:55 [INFO] : Login successful, dashboard loaded
+2026-03-03 16:46:55 [INFO] : Country value selected successfully
+2026-03-03 16:46:56 [INFO] : Checking if user is logged in
+2026-03-03 16:46:56 [INFO] : Entering Mobile number value
+2026-03-03 16:46:58 [INFO] : Mobile number value entered successfully
+2026-03-03 16:46:58 [INFO] : Entering Work Mobile number value
+2026-03-03 16:47:00 [INFO] : viewPersonalDetails page opened after clicking option
+2026-03-03 16:47:00 [INFO] : Checking if viewPersonalDetails page is displayed with all personal details of the user
+2026-03-03 16:47:00 [INFO] : Clicking Contact Details tab
+2026-03-03 16:47:02 [INFO] : Work Mobile number value entered successfully
+2026-03-03 16:47:02 [INFO] : Entering Work Email value
+2026-03-03 16:47:04 [INFO] : Contact Details tab navigation successful
+2026-03-03 16:47:04 [INFO] : Checking if ContactDetails page is displayed
+2026-03-03 16:47:04 [INFO] : Entering Street 1 value
+2026-03-03 16:47:04 [INFO] : Work Email value entered successfully
+2026-03-03 16:47:04 [INFO] : Clicking Save button
+2026-03-03 16:47:06 [INFO] : Save button clicked successfully
+2026-03-03 16:47:07 [INFO] : Checking if Contact Details is saved successfully
+2026-03-03 16:47:10 [INFO] : Street 1 value entered successfully
+2026-03-03 16:47:10 [INFO] : Entering City value
+2026-03-03 16:47:13 [INFO] : City value entered successfully
+2026-03-03 16:47:13 [INFO] : Entering State value
+2026-03-03 16:47:15 [INFO] : State value entered successfully
+2026-03-03 16:47:15 [INFO] : Entering Zipcode value
+2026-03-03 16:47:17 [INFO] : Zipcode value entered successfully
+2026-03-03 16:47:17 [INFO] : Selecting Country value
+2026-03-03 16:47:21 [INFO] : Country value selected successfully
+2026-03-03 16:47:21 [INFO] : Entering Mobile number value
+2026-03-03 16:47:23 [INFO] : Mobile number value entered successfully
+2026-03-03 16:47:23 [INFO] : Entering Work Mobile number value
+2026-03-03 16:47:28 [INFO] : Work Mobile number value entered successfully
+2026-03-03 16:47:28 [INFO] : Entering Work Email value
+2026-03-03 16:47:30 [INFO] : Work Email value entered successfully
+2026-03-03 16:47:30 [INFO] : Clicking Save button
+2026-03-03 16:47:32 [INFO] : Save button clicked successfully
+2026-03-03 16:47:32 [INFO] : Checking if Contact Details is saved successfully
