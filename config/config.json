@@ -8,7 +8,7 @@
 
   "browser": {
     "name": "chromium",
-    "headless": false,
+    "headless": true,
     "slowMo": 800
   },
 
