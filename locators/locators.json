@@ -122,15 +122,15 @@
       "type": "textbox"
     },
     "city": {
-      "selector": "//label[text()='City']/../../..//input[@class='oxd-input oxd-input--active']",
+      "selector": "//label[text()='City']/following::input[1]",
       "type": "textbox"
     },
     "stateProvince": {
-      "selector": "//label[text()='State/Province']/../../..//input[@class='oxd-input oxd-input--active']",
+      "selector": "//label[text()='State/Province']/following::input[1]",
       "type": "textbox"
     },
     "zipPostalCode": {
-      "selector": "//label[text()='Zip/Postal Code']/../../..//input[@class='oxd-input oxd-input--active']",
+      "selector": "//label[text()='Zip/Postal Code']/following::input[1]",
       "type": "textbox"
     },
     "country": {
@@ -150,15 +150,16 @@
 },
   
     "mobile": {
-      "selector": "//label[text()='Mobile']/../../..//input[@class='oxd-input oxd-input--active']",
+      "selector": "//label[text()='Mobile']/following::input[1]",
+    
       "type": "textbox"
     },
     "work": {
-      "selector": "//label[text()='Work']/../../..//input[@class='oxd-input oxd-input--active']",
+      "selector": "//label[text()='Work']/following::input[1]",
       "type": "textbox"
     },
     "workEmail": {
-      "selector": "//label[text()='Work Email']/../../..//input[@class='oxd-input oxd-input--active']",
+      "selector": "//label[text()='Work Email']/following::input[1]",
       "type": "textbox"
     },
     "saveButton": {

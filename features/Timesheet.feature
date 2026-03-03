@@ -46,4 +46,4 @@ Scenario: TC003 - Add Contact details
   Examples:
   | street1   | city          | state | zipcode  | country | mobile     | workphone  | workemail       |
   | 45 Street | New York City | MH    | 67899    | Algeria | 9876543210 | 0123456789 | test@xcmail.com |
-  | 123 Street| Los Angeles   | CA    | 54321    | Angola  | 7654320912 | 11114455339 | cc@ccmail.com   |
+  | 123 Street| Los Angeles   | CA    | 54321    | Angola  | 7654320912 | 11114455339 | cc@ccmail.com  |

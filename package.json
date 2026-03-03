@@ -13,7 +13,7 @@
 
   "test:sanity": "cucumber-js --config cucumber.js --tags @sanity --parallel 3",
 
-  "test:tag": "cucumber-js --config cucumber.js --parallel 3"
+  "test:tag": "cucumber-js --config cucumber.js --parallel 3 "
 },
   "dependencies": {
     "@cucumber/cucumber": "^9.0.0",

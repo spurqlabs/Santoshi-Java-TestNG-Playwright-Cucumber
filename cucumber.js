@@ -1,6 +1,7 @@
 module.exports = {
   default: {
-    require: ["steps/**/*.js"],
+    require: ["./features/steps/*.js","./features/hooks/**/*.js"],
+    
     format: [
       "progress-bar",
       "html:test-results/reports/cucumber-report.html",

@@ -13,8 +13,11 @@ constructor(page) {
  const myInfoMenu = locatorReader.getLocator(this.page, 'myInfo.myInfoMenu');
  await myInfoMenu.click();
 
- assert.equal(await myInfoMenu.isVisible(), true, 'viewPersonalDetails page not opened after clicking MyInfo menu');
-  log.info("Clicked on My Info menu");
+ const url = this.page.url();
+ assert.equal(url.includes("viewPersonalDetails"), true, 'viewPersonalDetails page not opened after clicking MyInfo menu');
+      log.info("viewPersonalDetails page opened after clicking option");
+
+ 
 }
 
   async clickContactDetailsTab()
@@ -23,8 +26,9 @@ constructor(page) {
      const contactDetailsTab  = locatorReader.getLocator(this.page, 'contactDetails.tab');
         await contactDetailsTab.click();
        
-        assert.equal(await contactDetailsTab.isVisible(), true, 'ContactDetails page not opened after clicking Contact Details tab');
-             log.info("Contact Details tab navigation successful"); 
+        const url = this.page.url();
+        assert.equal(url.includes("contactDetails"), true, 'ContactDetails page not opened after clicking Contact Details tab');
+         log.info("Contact Details tab navigation successful"); 
       }
 
    async enterstreet1(street1)
@@ -45,9 +49,10 @@ constructor(page) {
     log.info("Entering City value");
     const cityField = locatorReader.getLocator(this.page, 'contactDetails.city');
     await cityField.fill(city);
-   
-    assert.equal(await cityField.inputValue(), city, 'City value does not match');
-     log.info("City value entered successfully");
+    await this.page.waitForTimeout(500);
+   assert.equal(await cityField.inputValue(), city, 'City value does not match');
+    log.info("City value entered successfully");
+    
    }
 
    async enterState(state)
@@ -57,7 +62,7 @@ constructor(page) {
     await stateField.fill(state);
     
     assert.equal(await stateField.inputValue(), state, 'State value does not match');
-    log.info("State value entered successfully");
+     log.info("State value entered successfully");
    }
 
    async enterzipcode(zipcode)
