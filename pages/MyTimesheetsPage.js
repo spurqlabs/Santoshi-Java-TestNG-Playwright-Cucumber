@@ -13,6 +13,7 @@ class MyTimesheetsPage {
     const menuTime = locatorReader.getLocator(this.page, 'timesheet.menuTime');
     if (!menuTime) throw new Error('Locator timesheet.menuTime not found');
     await menuTime.click();
+     await this.page.waitForTimeout(1000);
     		assert.equal(await menuTime.isVisible(), true, 'viewEmployeeTimesheet page not opened after clicking menu');
         log.info("viewEmployeeTimesheet page opened after clicking menu");
        

@@ -39,9 +39,10 @@ class LoginPage {
 		const locator1 = locatorReader.getLocator(this.page, 'login.loginButton');
 		if (!locator1) throw new Error('Locator for login.loginButton not found');
 		await Promise.all([
-			this.page.waitForNavigation({ waitUntil: 'domcontentloaded', timeout: 30000 }).catch(() => {}),
+			this.page.waitForNavigation({ waitUntil: 'domcontentloaded', timeout: 60000 }).catch(() => {}),
 			locator1.click()
 		]);
+		 await this.page.waitForTimeout(1000);
 		const dashboard1 = locatorReader.getLocator(this.page, 'dashboard.dashboardHeader');
 		assert.equal(await dashboard1.isVisible(), true, 'Dashboard did not load after login');
 		log.info("Login successful, dashboard loaded");

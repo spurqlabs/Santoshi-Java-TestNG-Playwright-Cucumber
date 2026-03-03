@@ -3,21 +3,21 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-  "install:browsers": "npx playwright install",
-
-  "test": "cucumber-js --config cucumber.js --parallel 3",
-
-  "test:smoke": "cucumber-js --config cucumber.js --tags @smoke --parallel 3",
-
-  "test:regression": "cucumber-js --config cucumber.js --tags @regression --parallel 3",
-
-  "test:sanity": "cucumber-js --config cucumber.js --tags @sanity --parallel 3",
-
-  "test:tag": "cucumber-js --config cucumber.js --parallel 3 "
-},
+    "install:browsers": "npx playwright install",
+    "test": "cucumber-js --config cucumber.js --parallel 3",
+    "test:smoke": "cucumber-js --config cucumber.js --tags @smoke --parallel 3",
+    "test:regression": "cucumber-js --config cucumber.js --tags @regression --parallel 3",
+    "test:sanity": "cucumber-js --config cucumber.js --tags @sanity --parallel 3",
+    "test:tag": "cucumber-js --config cucumber.js --parallel 3 "
+  },
   "dependencies": {
-    "@cucumber/cucumber": "^9.0.0",
+    "@cucumber/cucumber": "^12.7.0",
     "playwright": "^1.40.0",
     "winston": "^3.19.0"
+  },
+  "devDependencies": {
+    "allure-commandline": "^2.37.0",
+    "allure-cucumberjs": "^3.5.0",
+    "allure-playwright": "^3.5.0"
   }
 }

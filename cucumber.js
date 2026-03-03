@@ -6,7 +6,9 @@ module.exports = {
       "progress-bar",
       "html:test-results/reports/cucumber-report.html",
       "json:test-results/reports/cucumber-report.json",
-      "junit:test-results/reports/cucumber-report.xml"
+      "junit:test-results/reports/cucumber-report.xml",
+      "allure-cucumberjs/reporter"
+    
     ],
    parallel: 3,
     publishQuiet: true,

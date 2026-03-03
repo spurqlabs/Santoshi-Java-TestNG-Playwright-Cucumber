@@ -1,47 +1,73 @@
 <?xml version="1.0"?>
-<testsuite failures="0" skipped="0" name="cucumber-js" time="168.35532007" tests="2">
-  <testcase classname="My Timesheet Management in OrangeHRM" name="TC003 - Add Contact details" time="81.87991158300001">
-    <system-out><![CDATA[Given user is on OrangeHRM login page.....................................passed
-When user enter username..................................................passed
-When user enter password..................................................passed
-When user click on Login button...........................................passed
-Then the user is logged in to the application.............................passed
-Given user is on dashbrd page.............................................passed
-When user click on My Info tab............................................passed
-Then viewPersonalDetails page is displayed with all personal details of...passed
-When user click on Contact Details subtab.................................passed
-Then ContactDetails page is displayed.....................................passed
-When user enter steet1 "123 Street".......................................passed
-When user enter city "Los Angeles"........................................passed
-When user enter state "CA"................................................passed
-When user enter zip code "54321"..........................................passed
-When user enter country "Angola"..........................................passed
-When user enter mobile "7654320912".......................................passed
-When user enter work phone "11114455339"..................................passed
-When user enter work email "cc@ccmail.com"................................passed
-When user click on Save button............................................passed
-Then Contact Details is saved successfully................................passed]]></system-out>
+<testsuite name="Cucumber" time="95.783" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-03-03T11:15:57.258Z">
+  <testcase classname="My Timesheet Management in OrangeHRM" name="TC001 - Login to application" time="33.124">
+    <system-out><![CDATA[Given user is on OrangeHRM login page.......................................passed
+When user enter username....................................................passed
+When user enter password....................................................passed
+When user click on Login button.............................................passed
+Then the user is logged in to the application...............................passed
+Then the user is logged in to the application...............................passed]]></system-out>
   </testcase>
-  <testcase classname="My Timesheet Management in OrangeHRM" name="TC003 - Add Contact details [1]" time="86.475408487">
-    <system-out><![CDATA[Given user is on OrangeHRM login page.....................................passed
-When user enter username..................................................passed
-When user enter password..................................................passed
-When user click on Login button...........................................passed
-Then the user is logged in to the application.............................passed
-Given user is on dashbrd page.............................................passed
-When user click on My Info tab............................................passed
-Then viewPersonalDetails page is displayed with all personal details of...passed
-When user click on Contact Details subtab.................................passed
-Then ContactDetails page is displayed.....................................passed
-When user enter steet1 "45 Street"........................................passed
-When user enter city "New York City"......................................passed
-When user enter state "MH"................................................passed
-When user enter zip code "67899"..........................................passed
-When user enter country "Algeria".........................................passed
-When user enter mobile "9876543210".......................................passed
-When user enter work phone "0123456789"...................................passed
-When user enter work email "test@xcmail.com"..............................passed
-When user click on Save button............................................passed
-Then Contact Details is saved successfully................................passed]]></system-out>
+  <testcase classname="My Timesheet Management in OrangeHRM" name="TC002 - Add Timesheet details" time="57.097">
+    <system-out><![CDATA[Given user is on OrangeHRM login page.......................................passed
+When user enter username....................................................passed
+When user enter password....................................................passed
+When user click on Login button.............................................passed
+Then the user is logged in to the application...............................passed
+Given user is on Dashboard page.............................................passed
+When user navigates to Time -> Timesheets...................................passed
+Then ViewEmployeeTimesheet page is displayed................................passed
+When User click on Timesheet option.........................................passed
+Then Timesheet dropdown list is displayed...................................passed
+When user select My Timesheets option from the Timesheet dropdown...........passed
+Then ViewMyTimesheet page is displayed......................................passed
+When User click on Edit button..............................................passed
+Then EditTimesheet page is displayed........................................passed
+When User click on Cancel button............................................passed
+Then My Timesheet page is displayed.........................................passed]]></system-out>
+  </testcase>
+  <testcase classname="My Timesheet Management in OrangeHRM" name="TC003 - Add Contact details - #1.1" time="65.495">
+    <system-out><![CDATA[Given user is on OrangeHRM login page.......................................passed
+When user enter username....................................................passed
+When user enter password....................................................passed
+When user click on Login button.............................................passed
+Then the user is logged in to the application...............................passed
+Given user is on dashbrd page...............................................passed
+When user click on My Info tab..............................................passed
+Then viewPersonalDetails page is displayed with all personal details of the user..passed
+When user click on Contact Details subtab...................................passed
+Then ContactDetails page is displayed.......................................passed
+When user enter steet1 "45 Street"..........................................passed
+When user enter city "New York City"........................................passed
+When user enter state "MH"..................................................passed
+When user enter zip code "67899"............................................passed
+When user enter country "Algeria"...........................................passed
+When user enter mobile "9876543210".........................................passed
+When user enter work phone "0123456789".....................................passed
+When user enter work email "test@xcmail.com"................................passed
+When user click on Save button..............................................passed
+Then Contact Details is saved successfully..................................passed]]></system-out>
+  </testcase>
+  <testcase classname="My Timesheet Management in OrangeHRM" name="TC003 - Add Contact details - #1.2" time="58.023">
+    <system-out><![CDATA[Given user is on OrangeHRM login page.......................................passed
+When user enter username....................................................passed
+When user enter password....................................................passed
+When user click on Login button.............................................passed
+Then the user is logged in to the application...............................passed
+Given user is on dashbrd page...............................................passed
+When user click on My Info tab..............................................passed
+Then viewPersonalDetails page is displayed with all personal details of the user..passed
+When user click on Contact Details subtab...................................passed
+Then ContactDetails page is displayed.......................................passed
+When user enter steet1 "123 Street".........................................passed
+When user enter city "Los Angeles"..........................................passed
+When user enter state "CA"..................................................passed
+When user enter zip code "54321"............................................passed
+When user enter country "Angola"............................................passed
+When user enter mobile "7654320912".........................................passed
+When user enter work phone "11114455339"....................................passed
+When user enter work email "cc@ccmail.com"..................................passed
+When user click on Save button..............................................passed
+Then Contact Details is saved successfully..................................passed]]></system-out>
   </testcase>
 </testsuite>
