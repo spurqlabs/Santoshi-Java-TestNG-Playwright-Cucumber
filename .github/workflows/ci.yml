@@ -27,12 +27,11 @@ jobs:
       - name: Install Playwright Browsers
         run: npx playwright install --with-deps
 
-      - name: Run lint
-        run: npm run lint
-        continue-on-error: true
+      - name: Run Cucumber Tests
+        run: |        
+        echo "Running tests..." 
+        npx cucumber-js --config cucumber.js --parallel 3 --format progress --format summary 
 
-      - name: Run Tests
-        run: npm test
 
       - name: Install Allure Commandline
         run: npm install -g allure-commandline
