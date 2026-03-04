@@ -28,9 +28,9 @@ jobs:
         run: npx playwright install --with-deps
 
       - name: Run Cucumber Tests
-        run: |        
-        echo "Running tests..." 
-        npx cucumber-js --config cucumber.js --parallel 3 --format progress --format summary 
+        run: |
+          echo "Running tests..."
+          npx cucumber-js --config cucumber.js --parallel 3 --format progress --format summary
 
 
       - name: Install Allure Commandline
