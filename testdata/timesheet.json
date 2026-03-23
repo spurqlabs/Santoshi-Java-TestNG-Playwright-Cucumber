@@ -1,0 +1,26 @@
+{
+  "fileName": "timesheetData",
+  "scenarios": [
+    {
+      "scenarioName": "TC001 - Login to application",
+      "testData": {
+        "username": "Admin",
+        "password": "admin123"
+      }
+    },
+    {
+      "scenarioName": "TC002 - Add Timesheet details",
+      "testData": {
+        "projectName": "ACME",
+        "activity": "Feature Development",
+        "mondayHours": "8",
+        "tuesdayHours": "8",
+        "wednesdayHours": "8",
+        "thursdayHours": "8",
+        "fridayHours": "8",
+        "saturdayHours": "0",
+        "sundayHours": "0"
+      }
+    }
+  ]
+}

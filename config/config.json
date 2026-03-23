@@ -1,0 +1,10 @@
+{
+  "baseUrl": "https://opensource-demo.orangehrmlive.com",
+  "loginPath": "/web/index.php/auth/login",
+  "timeout": 30000,
+  "browser": {
+    "type": "chromium",
+    "headless": false,
+    "slowMo": 800
+  }
+}

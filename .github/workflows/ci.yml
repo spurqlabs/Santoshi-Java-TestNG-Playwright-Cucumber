@@ -1,0 +1,140 @@
+name: Playwright BDD CI
+
+on:
+  push:
+    branches:
+      - main
+      - master
+      - develop
+  pull_request:
+    branches:
+      - main
+      - master
+      - develop
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: 'Environment to run tests against'
+        required: false
+        default: 'qa'
+        type: choice
+        options:
+          - qa
+          - staging
+          - prod
+
+jobs:
+  test:
+    name: Run BDD Tests
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    
+    strategy:
+      fail-fast: false
+      matrix:
+        node-version: [18.x, 20.x]
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install Playwright browsers
+        run: npx playwright install --with-deps
+
+      - name: Create reports directory
+        run: mkdir -p reports/screenshots reports/videos reports/traces
+
+      - name: Run BDD tests
+        run: npm test
+        env:
+          ENV: ${{ github.event.inputs.environment || 'qa' }}
+          HEADLESS: true
+
+      - name: Generate HTML Report
+        if: always()
+        run: |
+          if [ -f reports/cucumber-report.json ]; then
+            echo "Test report generated successfully"
+          fi
+
+      - name: Upload Cucumber HTML Report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: cucumber-report-${{ matrix.node-version }}
+          path: reports/cucumber-report.html
+          retention-days: 30
+
+      - name: Upload Cucumber JSON Report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: cucumber-json-report-${{ matrix.node-version }}
+          path: reports/cucumber-report.json
+          retention-days: 30
+
+      - name: Upload Screenshots
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: failure-screenshots-${{ matrix.node-version }}
+          path: reports/screenshots/
+          retention-days: 30
+
+      - name: Upload Videos
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-videos-${{ matrix.node-version }}
+          path: reports/videos/
+          retention-days: 30
+
+      - name: Upload Traces
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: playwright-traces-${{ matrix.node-version }}
+          path: reports/traces/
+          retention-days: 30
+
+      - name: Publish Test Report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-reports-${{ matrix.node-version }}
+          path: reports/
+          retention-days: 30
+
+  lint:
+    name: Lint Code
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20.x'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run ESLint
+        run: npm run lint
+        continue-on-error: true
+
+      - name: Run Prettier Check
+        run: npx prettier --check .
+        continue-on-error: true

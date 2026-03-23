@@ -1,0 +1,86 @@
+{
+  "recruitmentMenu": "getByRole('link', { name: 'Recruitment' })",
+  "viewCandidatesPage": {
+    "candidatesHeading": "getByRole('heading', { name: 'Candidates' })",
+    "addButton": "getByRole('button', { name: 'Add' })",
+    "jobTitleDropdown": ".oxd-grid-item:nth-child(1) .oxd-select-text",
+    "vacancyDropdown": ".oxd-grid-item:nth-child(2) .oxd-select-text",
+    "hiringManagerDropdown": ".oxd-grid-item:nth-child(3) .oxd-select-text",
+    "statusDropdown": ".oxd-grid-item:nth-child(4) .oxd-select-text",
+    "candidateNameInput": "getByRole('textbox', { name: 'Type for hints...' })",
+    "keywordsInput": "getByRole('textbox', { name: 'Enter comma seperated words...' })",
+    "dateFromInput": "getByRole('textbox', { name: 'From' })",
+    "dateToInput": "getByRole('textbox', { name: 'To' })",
+    "methodOfApplicationDropdown": ".oxd-grid-item:nth-child(6) .oxd-select-text",
+    "resetButton": "getByRole('button', { name: 'Reset' })",
+    "searchButton": "getByRole('button', { name: 'Search' })",
+    "candidatesTable": ".oxd-table",
+    "viewCandidateButton": ".oxd-table-cell-actions button:first-child",
+    "deleteCandidateButton": ".oxd-table-cell-actions button:last-child"
+  },
+  "addCandidatePage": {
+    "addCandidateHeading": "getByRole('heading', { name: 'Add Candidate' })",
+    "firstNameInput": "getByRole('textbox', { name: 'First Name' })",
+    "middleNameInput": "getByRole('textbox', { name: 'Middle Name' })",
+    "lastNameInput": "getByRole('textbox', { name: 'Last Name' })",
+    "vacancyDropdown": ".oxd-grid-item:nth-child(2) .oxd-select-text",
+    "emailInput": ".oxd-grid-item:nth-child(3) .oxd-input",
+    "contactNumberInput": ".oxd-grid-item:nth-child(3) .oxd-input:last-child",
+    "resumeUpload": ".oxd-file-input",
+    "keywordsInput": "getByRole('textbox', { name: 'Enter comma seperated words...' })",
+    "dateOfApplicationInput": "getByRole('textbox', { name: 'yyyy-dd-mm' })",
+    "notesInput": ".oxd-grid-item:nth-child(6) textarea",
+    "consentCheckbox": ".oxd-checkbox-input",
+    "cancelButton": "getByRole('button', { name: 'Cancel' })",
+    "saveButton": "getByRole('button', { name: 'Save' })"
+  },
+  "applicationStagePage": {
+    "applicationStageHeading": "getByRole('heading', { name: 'Application Stage' })",
+    "candidateNameLabel": ".orangehrm-edit-employee-name",
+    "vacancyLabel": ".orangehrm-edit-employee-name + p",
+    "statusLabel": ".orangehrm-recruitment-status",
+    "rejectButton": "getByRole('button', { name: 'Reject' })",
+    "shortlistButton": "getByRole('button', { name: 'Shortlist' })",
+    "scheduleInterviewButton": "getByRole('button', { name: 'Schedule Interview' })",
+    "candidateProfileHeading": "getByRole('heading', { name: 'Candidate Profile' })",
+    "editCheckbox": "getByRole('checkbox', { name: 'Edit' })",
+    "downloadResumeButton": ".orangehrm-file-download",
+    "candidateHistoryHeading": "getByRole('heading', { name: 'Candidate History' })"
+  },
+  "shortlistCandidatePage": {
+    "shortlistCandidateHeading": "getByRole('heading', { name: 'Shortlist Candidate' })",
+    "candidateTextbox": ".oxd-grid-item:nth-child(1) .oxd-input",
+    "vacancyTextbox": ".oxd-grid-item:nth-child(2) .oxd-input",
+    "hiringManagerTextbox": ".oxd-grid-item:nth-child(3) .oxd-input",
+    "currentStatusTextbox": ".oxd-grid-item:nth-child(4) .oxd-input",
+    "notesInput": "getByRole('textbox', { name: 'Type here' })",
+    "cancelButton": "getByRole('button', { name: 'Cancel' })",
+    "saveButton": "getByRole('button', { name: 'Save' })"
+  },
+  "scheduleInterviewPage": {
+    "scheduleInterviewHeading": "getByRole('heading', { name: 'Schedule Interview' })",
+    "candidateTextbox": ".oxd-grid-item:nth-child(1) .oxd-input",
+    "vacancyTextbox": ".oxd-grid-item:nth-child(2) .oxd-input",
+    "hiringManagerTextbox": ".oxd-grid-item:nth-child(3) .oxd-input",
+    "currentStatusTextbox": ".oxd-grid-item:nth-child(4) .oxd-input",
+    "interviewTitleInput": ".oxd-grid-item:nth-child(5) .oxd-input",
+    "interviewerInput": "getByRole('textbox', { name: 'Type for hints...' })",
+    "addAnotherButton": "getByRole('button', { name: 'Add Another' })",
+    "dateInput": ".oxd-grid-item:nth-child(7) .oxd-input",
+    "timeInput": "input[placeholder='hh:mm']",
+    "notesInput": "getByRole('textbox', { name: 'Type here' })",
+    "cancelButton": "getByRole('button', { name: 'Cancel' })",
+    "saveButton": ".oxd-button--secondary"
+  },
+  "profileMenu": {
+    "profileDropdown": ".oxd-userdropdown",
+    "logoutLink": "getByRole('menuitem', { name: 'Logout' })"
+  },
+  "commonLocators": {
+    "successToast": ".oxd-toast--success",
+    "errorToast": ".oxd-toast--error",
+    "confirmButton": "getByRole('button', { name: 'Yes, Delete' })",
+    "cancelDialogButton": "getByRole('button', { name: 'No, Cancel' })",
+    "dropdownOption": "getByRole('option')"
+  }
+}

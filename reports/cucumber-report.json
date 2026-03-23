@@ -1,0 +1,331 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "recruitment-management-in-orangehrm;tc004---view-candidate-details,-downloaded-attached-resume-and-schedule-interview",
+        "keyword": "Scenario",
+        "line": 27,
+        "name": "TC004 - View Candidate details, downloaded attached resume and schedule Interview",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 3947697900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user is on OrangeHRM login page",
+            "match": {
+              "location": "features\\stepdef\\timesheet.steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7059898200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "user enter username",
+            "match": {
+              "location": "features\\stepdef\\timesheet.steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2741155800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "user enter password",
+            "match": {
+              "location": "features\\stepdef\\timesheet.steps.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 853259600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "user click on Login button",
+            "match": {
+              "location": "features\\stepdef\\timesheet.steps.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5689061699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "the user is logged in to the application",
+            "match": {
+              "location": "features\\stepdef\\timesheet.steps.js:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1952395099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 28,
+            "name": "user is on home page",
+            "match": {
+              "location": "features\\stepdef\\recruitment.stepdef.js:83"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 34115799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 29,
+            "name": "user click on Recruit_menu",
+            "match": {
+              "location": "features\\stepdef\\recruitment.stepdef.js:91"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6631511900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 30,
+            "name": "user navigate to recruitment page",
+            "match": {
+              "location": "features\\stepdef\\recruitment.stepdef.js:95"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 826110999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 31,
+            "name": "user added a new candidate",
+            "match": {
+              "location": "features\\stepdef\\recruitment.stepdef.js:100"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22563094499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "candidate is created sucessfully",
+            "match": {
+              "location": "features\\stepdef\\recruitment.stepdef.js:114"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2866787600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 33,
+            "name": "user click on download button for resume",
+            "match": {
+              "location": "features\\stepdef\\recruitment.stepdef.js:119"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5913894800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 34,
+            "name": "the resume is downloaded successfully",
+            "match": {
+              "location": "features\\stepdef\\recruitment.stepdef.js:123"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 192490999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 35,
+            "name": "user click on Shortlist button",
+            "match": {
+              "location": "features\\stepdef\\recruitment.stepdef.js:128"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1570500700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 36,
+            "name": "user navigate to changeCandidateVacancyStatus page",
+            "match": {
+              "location": "features\\stepdef\\recruitment.stepdef.js:132"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 53809399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 37,
+            "name": "user enter Notes and click save_BTN",
+            "match": {
+              "location": "features\\stepdef\\recruitment.stepdef.js:136"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3716185599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 38,
+            "name": "entered details are saved and navigate to addCandidate page",
+            "match": {
+              "location": "features\\stepdef\\recruitment.stepdef.js:142"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2106373600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 39,
+            "name": "user click on Schedule Interview button",
+            "match": {
+              "location": "features\\stepdef\\recruitment.stepdef.js:146"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2322953500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 40,
+            "name": "user navigate to Schedule Interview page for the entered interview details",
+            "match": {
+              "location": "features\\stepdef\\recruitment.stepdef.js:150"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 39707699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 41,
+            "name": "user enter interview schedule details and click_SAVE",
+            "match": {
+              "location": "features\\stepdef\\recruitment.stepdef.js:154"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12084809800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 42,
+            "name": "entered interview details are saved and navigate to Applcation stage page with Interview Scheduled status",
+            "match": {
+              "location": "features\\stepdef\\recruitment.stepdef.js:159"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1405493499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 43,
+            "name": "user click on Logout button from profile menu",
+            "match": {
+              "location": "features\\stepdef\\recruitment.stepdef.js:163"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3485454299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 44,
+            "name": "user is logged out from the application",
+            "match": {
+              "location": "features\\stepdef\\recruitment.stepdef.js:167"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3841700
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 661532900
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression1",
+            "line": 26
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "recruitment-management-in-orangehrm",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Recruitment Management in OrangeHRM",
+    "tags": [],
+    "uri": "features\\recruitment.feature"
+  }
+]

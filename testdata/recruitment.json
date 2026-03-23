@@ -1,0 +1,36 @@
+{
+"fileName": "recruitment",
+"scenarios":
+[
+{
+"scenarioName": "TC003 - Add Candidate details",
+"testData":
+{
+"firstname": "Rutuja",
+"lastname": "Raut",
+"jobvacancy": "Payroll Administrator",
+"email": "rr@ccmail.com",
+"cnumber": "901212123901",
+"filePath": "Files/Java Interview Questions.docx"
+}
+},
+{
+"scenarioName": "TC004 - View Candidate details, downloaded attached resume and schedule Interview",
+"testData":
+{
+    "firstname": "Rutuja",
+   "lastname": "Raut",
+    "jobvacancy": "Payroll Administrator",
+    "email": "rr@ccmail.com",
+    "cnumber": "901212123901",
+    "filePath": "Files/Java Interview Questions.docx",
+    "Notes": "Candidate Shortlisted",
+    "Interview Title": "Payroll Interview",
+    "Interviewer": "ygikf vnmb bdlqrf",
+    "Interview Date": "2026-17-03",
+    "Note": "Interview Completed"
+}
+}
+
+]
+}

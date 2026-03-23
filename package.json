@@ -1,0 +1,37 @@
+{
+  "name": "playwright-javascript-bdd",
+  "version": "1.0.0",
+  "description": "Playwright JavaScript BDD Automation Framework with Cucumber",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js",
+    "test:headed": "cucumber-js --headed",
+    "test:parallel": "cucumber-js --parallel 4",
+    "test:report": "cucumber-js --format html:reports/cucumber-report.html",
+    "test:tags": "cucumber-js --tags",
+    "lint": "eslint .",
+    "format": "prettier --write ."
+  },
+  "keywords": [
+    "playwright",
+    "cucumber",
+    "bdd",
+    "automation",
+    "e2e-testing"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@cucumber/cucumber": "^10.3.1",
+    "@playwright/test": "^1.41.0",
+    "dotenv": "^16.4.1",
+    "multiple-cucumber-html-reporter": "^3.0.1",
+    "playwright": "^1.41.0"
+  },
+  "devDependencies": {
+    "@cucumber/pretty-formatter": "^3.2.0",
+    "@types/node": "^20.11.16",
+    "eslint": "^8.56.0",
+    "prettier": "^3.2.5"
+  }
+}
